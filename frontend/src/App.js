@@ -4,7 +4,7 @@ import StarRating from "./StarRating";
 import "./App.css";
 
 function App() {
-  const API_URL = "https://upteky-feedback.onrender.com/api/feedback"; 
+  const API_URL = "https://upteky-feedback-1.onrender.com/api/feedback"; 
 
   const [feedbacks, setFeedbacks] = useState([]);
   const [form, setForm] = useState({
